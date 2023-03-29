@@ -1,0 +1,16 @@
+/*
+Theme Name: test
+Привласнювати стилі лише через класи.
+
+nav .a.active, nav li.current_page_item a {}
+nav .a.active, nav li.current_menu_item a {}
+*/
+
+img {
+    max-width: 100%;
+}
+
+nav li.current_page_item a {
+    color: green;
+}
+
