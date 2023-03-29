@@ -1,6 +1,9 @@
+<?php
+  /*
+   Template Name: Home
+  */
+?>
 <?php get_header(); ?>
-
-  <!--   Template Name: home-->
 
   <main class='main'>
     <div>
@@ -20,5 +23,6 @@
     </div>
     <?php the_posts_pagination(); ?>
   </main>
+
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

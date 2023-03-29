@@ -38,7 +38,9 @@
 		register_widget( 'Test_Recent_Posts' );
 	} );
 
-	//	add_shortcode( 'test_recent', function ( $atts ) {
+  add_filter('widget_text', 'do_shortcode');
+
+//	/	add_shortcode( 'test_recent', function ( $atts ) {
 	//		$atts = shortcode_atts( array(
 	//			'cnt' => 5
 	//		), $atts );

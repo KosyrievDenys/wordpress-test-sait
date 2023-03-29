@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d50e23f-f594-4e19-9aa6-c1fd2b817166" name="Changes" comment="feature-test-wordpress-theme-lists-and-page-without-template">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/inc/test-recent-posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/page-with-map.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/test/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/test/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/assets/img/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/assets/img/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/inc/test-recent-posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/inc/test-recent-posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/page-with-map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/test/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/test/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +60,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\test-sait\wp-content\themes\test" />
+      <recent name="C:\xampp\htdocs\test-sait\wp-content\themes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +83,7 @@
       <workItem from="1679919951289" duration="10121000" />
       <workItem from="1679988511750" duration="2687000" />
       <workItem from="1680010806434" duration="2615000" />
+      <workItem from="1680074276321" duration="7816000" />
     </task>
     <servers />
   </component>
