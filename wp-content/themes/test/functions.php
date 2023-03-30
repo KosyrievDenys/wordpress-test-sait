@@ -82,7 +82,6 @@
 
   function test_post_types() {
     register_post_type('reviews', [
-      //    'label'  => null,
       'labels' => [
         'name' => 'Відгуки', // основное название для типа записи
         'singular_name' => 'Відгук', // название для одной записи этого типа
@@ -106,6 +105,31 @@
       'taxonomies' => [],
       'has_archive' => false,
     ]);
+
+    register_post_type('reviews', [
+      'labels' => [
+        'name' => 'Квартири', // основное название для типа записи
+        'singular_name' => 'Квартира', // название для одной записи этого типа
+        'add_new' => 'Добавити нову', // для добавления новой записи
+        'add_new_item' => 'Додавання квартири', // заголовка у вновь создаваемой записи в админ-панели.
+        'edit_item' => 'Редактування квартири', // для редактирования типа записи
+        'new_item' => 'Нова квартира', // текст новой записи
+        'view_item' => 'Дивитись квартиру', // для просмотра записи этого типа.
+        'search_items' => 'Шукати квартири', // для поиска по этим типам записи
+        'not_found' => 'Не знайдено', // если в результате поиска ничего не было найдено
+        'not_found_in_trash' => 'Не знайдено в корзині', // если не было найдено в корзине
+        'parent_item_colon' => '', // для родителей (у древовидных типов)
+        'menu_name' => 'Квартири', // название меню
+      ],
+      'description' => '',
+      'public' => true,
+      'menu_position' => 25,
+      'menu_icon' => 'dashicons-format-quote',
+      'hierarchical' => false,
+      'supports' => ['title', 'editor'], // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
+      'taxonomies' => [],
+      'has_archive' => false,
+    ]);
   }
 
   function test_show_reviews() {
@@ -115,7 +139,7 @@
       'post_type' => 'reviews',
     ];
     $posts = get_posts($args);
-var_dump($posts);
+    var_dump($posts);
     return $posts;
   }
 
